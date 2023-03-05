@@ -1,0 +1,430 @@
+@media (min-width: 700px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        background: #f3f4f6;
+    }
+
+    header {
+        background: #fff;
+        display: flex;
+        height: 90px;
+    }
+
+    header img {
+        width: 250px;
+        padding: 47px 0 0 65px;
+        align-items: center;
+    }
+
+    nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 55px;
+    }
+
+    .lista1 ul {
+        list-style: none;
+        display: flex;
+        justify-content: flex-start;
+        gap: 37px;
+        white-space: nowrap;
+        font-size: 17px;
+        padding: 45px 0 0 46px;
+        color: #613387;
+        cursor: pointer;
+        font-weight: bold;
+    }
+
+    .lista1 ul li:hover {
+        color: orange;
+    }
+
+    .lista2 ul li:hover {
+        color: orange;
+    }
+
+    .lista2 ul {
+        display: flex;
+        align-items: center;
+        list-style: none;
+        justify-content: space-between;
+        gap: 12px;
+        padding: 44px 0 0 300px;
+    }
+
+    .lista2 ul li {
+        cursor: pointer;
+        color: #613387;
+        font-weight: bold;
+    }
+
+    .lista2 ul li button {
+        color: #fff;
+        background: #613387;
+        width: 125px;
+        height: 55px;
+        border: none;
+        border-radius: 7px;
+        font-weight: bold;
+        cursor: pointer;
+    }
+
+    .conteudo .img-prince {
+        display: flex;
+        justify-content: center;
+    }
+
+    .conteudo .img-prince img {
+        width: 1220px;
+        border-radius: 12px;
+        padding: 38px 0 0 0;
+    }
+
+    .conteudo .info {
+        padding-top: 27px;
+        display: flex;
+        justify-content: center;
+        gap: 12px;
+    }
+
+    .conteudo .info button {
+        width: 610px;
+        height: 50px;
+        border: none;
+        border: 2px solid #613387;
+        border-radius: 8px;
+        color: #613387;
+        font-size: 17px;
+        cursor: pointer;
+    }
+
+    .conteudo .info .btn1 {
+        background: #613387;
+        color: #fff;
+    }
+
+    h1 {
+        color: #613387;
+        padding: 38px 0 0 67px;
+        font-size: 48px;
+    }
+
+    h2 {
+        font-size: 20px;
+        padding: 12px 0 0 67px;
+        width: 660px;
+        color: #6b7280;
+    }
+
+    main .gp-01,
+    .gp-02 {
+        display: grid;
+        grid-template: "A B C D E F G H I J";
+
+    }
+
+    main .gp-01 .ft-01 span {
+        color: #613387;
+        width: 199px;
+        display: block;
+    }
+
+    main .gp-01 .ft-01 span {
+        color: #613387;
+
+    }
+
+    main .gp-01 .ft-01 p {
+        padding: 0 0 0 69px;
+        width: 230px;
+        font-size: 16px;
+        color: #6b7280;
+        white-space: nowrap;
+    }
+
+    main .gp-01 .ft-01 span:hover {
+        color: orange;
+        cursor: pointer;
+    }
+
+    main .ft-01 img {
+        width: 230px;
+        height: auto;
+        margin: 3em 0 0 4em;
+        border-radius: 6px;
+
+    }
+
+    main .gp-01 .ft-01 {
+        position: relative;
+
+    }
+
+    main .gp-01 .ft-01:nth-child(2) {
+        grid-area: B;
+        right: 3em;
+
+    }
+
+    main .gp-01 .ft-01:nth-child(3) {
+        grid-area: C;
+        right: 6em;
+    }
+
+    main .gp-01 .ft-01:nth-child(4) {
+        grid-area: D;
+        right: 9em;
+    }
+
+    main .gp-01 .ft-01:nth-child(5) {
+        grid-area: E;
+        right: 11.8em;
+    }
+
+    /*A PARTIR DAQUI COMEÇA O GRUPO 2 DAS FOTO*/
+
+    main .gp-02 .ft-01 {
+        width: 225px;
+    }
+
+    main .gp-02 .ft-01 span {
+        color: #613387;
+        width: 199px;
+        display: block;
+    }
+
+    main .gp-02 .ft-01 p {
+        padding: 0 0 0 69px;
+        width: 230px;
+        font-size: 16px;
+        color: #6b7280;
+        white-space: nowrap
+    }
+
+    main .gp-02 .ft-01 span:hover {
+        color: orange;
+        cursor: pointer;
+    }
+
+    main .btn2 {
+        background: #ffff;
+        color: #7a3387;
+        font-size: 21px;
+        border-radius: 6px;
+        width: 110px;
+        height: 40px;
+        border: 1px solid #6b7280;
+        margin: 30px 0 0 598px;
+        cursor: pointer;
+    }
+
+    .sobre h3 {
+        color: #613387;
+        padding: 38px 0 0 67px;
+        font-size: 48px;
+        display: block;
+    }
+
+
+    .sobre .card {
+        border: 1px solid orange;
+        width: 390px;
+        height: 150px;
+        border-radius: 12px;
+        display: flex;
+    }
+
+    .sobre .card img {
+        width: 130px;
+        padding-top: 15px;
+        display: flex;
+    }
+
+    .sobre .container2 {
+        display: flex;
+        padding-top: 29px;
+        justify-content: center;
+        gap: 26px;
+    }
+
+    .sobre .card p span {
+        color: #613387;
+        display: block;
+    }
+
+    .sobre .container2 .card p {
+        width: 205px;
+        font-size: 19px;
+        position: absolute;
+        margin: 11px 0 0 150px;
+    }
+
+    .sobre button {
+        background: #ffff;
+        color: #7a3387;
+        font-size: 21px;
+        border-radius: 6px;
+        width: 320px;
+        height: 40px;
+        border: 1px solid #6b7280;
+        margin: 30px 0 0 528px;
+        cursor: pointer;
+    }
+
+    .blog h3 {
+        color: #613387;
+        padding: 38px 0 0 67px;
+        font-size: 48px;
+        display: block;
+    }
+
+
+    .blog .card {
+        border: 1px solid orange;
+        width: 290px;
+        height: 570px;
+        border-radius: 12px;
+        display: flex;
+    }
+
+    .blog .card a {
+        text-decoration: none;
+        display: flex;
+        padding: 19px 0 0 52px;
+        font-size: 12px;
+        color: #6b7280;
+    }
+
+    .blog .card img {
+        max-width: 100%;
+        height: 40%;
+        display: flex;
+        border-radius: 12px 12px 0 0;
+    }
+
+    .blog .container2 {
+        display: flex;
+        padding-top: 29px;
+        justify-content: center;
+        gap: 26px;
+    }
+
+    .blog .card p span {
+        color: #613387;
+        display: block;
+        padding-bottom: 12px;
+        font-size: 23px;
+    }
+
+    .blog .container2 .card p {
+        width: 225px;
+        font-size: 19px;
+        position: absolute;
+        margin: 235px 0 0 40px;
+        color: #6b7280;
+    }
+
+    .blog .btn3 {
+        background: #ffff;
+        color: #7a3387;
+        font-size: 21px;
+        border-radius: 6px;
+        width: 210px;
+        height: 40px;
+        border: 1px solid #6b7280;
+        margin: 30px 0 0 528px;
+        cursor: pointer;
+    }
+    .footer .column {
+        display: flex;
+        gap: 39px;
+        margin-top: 79px;
+        background: #613387;
+        height: 490px;
+    }
+
+    .footer .column {
+        font-size: 17px;
+        padding: 42px 0 0 120px;
+        color: #fff;
+    }
+
+    .footer .column .colEsq1,
+    .colCenter,
+    .coldire2 {
+        white-space: nowrap;
+        padding-top: 12px;
+    }
+
+    .footer .column .colEsq2 p {
+        white-space: nowrap;
+        padding-top: 12px;
+    }
+
+    .footer .column .colCenter p {
+        white-space: nowrap;
+        padding-top: 12px;
+    }
+
+    .footer .column .coldire1 p {
+        padding-top: 12px;
+
+    }
+
+    .footer .column .coldire1 p:nth-child(5) {
+        width: 190px;
+    }
+
+    .footer .column .coldire2 p {
+        padding-top: 12px;
+    }
+
+    .footer .column .colEsq1,
+    .colEsq2,
+    .colCenter,
+    .coldire1,
+    .coldire2 p {
+        cursor: pointer;
+    }
+
+    .footer .imgfoo {
+        position: absolute;
+        display: flex;
+    }
+
+    .footer .imgfoo .img{
+       margin-top: 280px ;
+       padding-left: 27em;
+    
+   
+    }
+
+    .footer .imgfoo .img img{
+        padding: 13px;
+    }
+
+    .footer .fim{
+        display: flex;
+        position: absolute;
+        margin-top: 340px ;
+        padding-left: 29em;
+        flex-direction: column;
+    }
+    .footer .fim img{
+        padding-left: 42px;
+        padding-top: 19px;
+        width: 160px;
+    }
+
+    .footer .fim p{
+        padding-top: 12px;
+        display: flex;
+        margin-right: 29em;
+    }
+} 
